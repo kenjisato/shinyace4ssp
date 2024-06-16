@@ -1,0 +1,19 @@
+Package: shinyace4ssp
+Type: Package
+Title: Mirror AceEditor Input to Text Area to Make the Former SSP Compatible
+Version: 0.1.0
+Authors@R: 
+    person("Kenji", "Sato", , "kenji@kenjisato.jp", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0009-0000-4520-2560"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This is a demonstration of a hackish work around to make shinyAce's 
+  aceEditor input to work with shinyStorePlus (indexeddb). 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    shinyAce,
+    shinyjs,
+    shinyStorePlus
+RoxygenNote: 7.3.1
